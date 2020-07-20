@@ -1,16 +1,17 @@
 import React, { Component } from 'react';
 import Navigation from '../Navigation/Navigation';
+import './Gallery.scss'
 
-class Contact extends Component {
+class Gallery extends Component {
     // Renders the entire app on the DOM
     render() {
       return (
-        <div>
+        <div id="gallery">
             <Navigation/>
-            <h1>Contact</h1>
+            <h1>Gallery</h1>
         </div>
       );
     }
   }
   
-  export default Contact;
+  export default Gallery;

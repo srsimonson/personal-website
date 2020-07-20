@@ -1,0 +1,32 @@
+@import 'src/index.scss';
+
+li {
+    float: left;
+    list-style: none;
+    margin-left: 10px;
+    // margin: auto;
+}
+
+.nav-div {
+
+}
+
+.navigation {
+    // background-color: red;
+    z-index: 1;
+    position: absolute;
+    margin: auto;
+    // width: 50%;
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-family: $font;
+    font-size: 1vw;
+}
+
+a:hover {
+    color: black;
+}

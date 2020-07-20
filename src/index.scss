@@ -1,18 +1,17 @@
+$font: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  font-family: $font; 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: url('/images/photo0.jpeg');
-  background-repeat: no-repeat;
-  background-color: rgb(216, 216, 216);
+  margin: 0;
 }
 
-// .container {
-//   background: url('/images/photo0.jpeg');
-//   // background-size: 95%;
-// }
-
-.outline {
+.NameOutline {
   width: 100%;
   opacity: 90%;
+}
+
+html {
+  height: 100hv;
 }
