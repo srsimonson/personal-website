@@ -9,6 +9,7 @@ class Gallery extends Component {
         <div id="gallery">
             <Navigation/>
             <h1>Gallery</h1>
+            <p>work in progress</p>
         </div>
       );
     }
